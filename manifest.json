@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Content Swapper",
+  "version": "1.0",
+  "description": "Sick of seeing certain names or profile photos? Content Swapper is a Chrome extension that can replace them with more \"user-friendly\" alternatives.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "options_page": "options.html",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
