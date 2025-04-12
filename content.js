@@ -21,6 +21,10 @@ function applyReplacements() {
               elements.forEach((el) => {
                 if (el.tagName === 'IMG') {
                   el.src = setting.url;
+                  // For GitHub but may be needed everywhere?
+                  if(el.style.height === 'auto')
+                    el.style.height = null;
+
                 } else {
                   el.style.backgroundImage = `url(${setting.url})`;
                 }
