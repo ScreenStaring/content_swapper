@@ -80,4 +80,4 @@ Released under the MIT License: www.opensource.org/licenses/MIT
 
 ---
 
-Made by [ScreenStaring](http://screenstaring.com)
+Made by [ScreenStaring](http://screenstaring.com?utm_source=content-swapper&utm_medium=docs&utm_campaign=github)
